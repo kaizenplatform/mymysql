@@ -1,7 +1,7 @@
 package native
 
 import (
-	"github.com/ziutek/mymysql/mysql"
+	"github.com/kaizenplatform/mymysql/mysql"
 	"time"
 )
 
@@ -404,7 +404,7 @@ func EncodeTime(buf []byte, t time.Time) int {
 	}
 	y, mon, d := t.Date()
 	h, m, s := t.Clock()
-	u:= getTimeMicroseconds(t)
+	u := getTimeMicroseconds(t)
 	return encodeNonzeroTime(
 		buf,
 		int16(y), byte(mon), byte(d),

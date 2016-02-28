@@ -1,8 +1,8 @@
 package thrsafe
 
 import (
-	"github.com/ziutek/mymysql/mysql"
-	"github.com/ziutek/mymysql/native"
+	"github.com/kaizenplatform/mymysql/mysql"
+	"github.com/kaizenplatform/mymysql/native"
 	"testing"
 )
 

@@ -95,7 +95,7 @@ invalid:
 }
 
 // Sandard MySQL datetime format
-const TimeFormat = "2006-01-02 15:04:05.000000000"
+const TimeFormat = "2006-01-02 15:04:05.000000"
 
 // Returns t as string in MySQL format Converts time.Time zero to MySQL zero.
 func TimeString(t time.Time) string {
